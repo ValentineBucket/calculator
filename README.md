@@ -1,2 +1,3 @@
 # Calculator
-A HTML5 calculator
+HTML5 calculator
+Just for fun.

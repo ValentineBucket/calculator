@@ -1,8 +1,57 @@
 * {
+  margin: 0px;
+  padding: 0px;
   background: none;
-  color: white;
+  color: black;
+  font-family: consolas, monospace;
+  user-select: none;
+  font-size: 20px;
 }
 
 html {
-  background-color: #123;
+  background-color: black;
+}
+
+li {
+  display: flex;
+}
+
+div {
+  display: inline-block;
+}
+
+button {
+  transition: background-color 0.25s ease;
+}
+
+button, div {
+  width: 50px;
+}
+
+button, div {
+  height: 50px;
+}
+
+#result {
+  width: 100px;
+}
+
+#input {
+  text-align: right;
+  padding: 15px;
+  outline: none;
+  width: 120px;
+  height: 20px;
+}
+
+button, #input {
+  border: none;
+}
+
+button, div, #input {
+  background-color: white;
+}
+
+button:hover {
+  background-color: #ccc;
 }
