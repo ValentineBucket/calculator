@@ -37,6 +37,7 @@ button, div {
 }
 
 #input {
+  user-select: text;
   text-align: right;
   padding: 15px;
   outline: none;
@@ -49,7 +50,7 @@ button, #input {
 }
 
 button, div, #input {
-  background-color: white;
+  background-color: #888888;
 }
 
 button:hover {
